@@ -13,7 +13,8 @@
     "geojson2svg": "^2.0.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "svg-to-geojson": "github:mapbox/svg-to-geojson"
+    "svg-to-geojson": "github:mapbox/svg-to-geojson",
+    "osmtogeojson": "^2.2.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

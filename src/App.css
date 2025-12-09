@@ -94,6 +94,22 @@
   gap: 0.75rem;
 }
 
+/* NEW: Styles for the dropdown in panel header */
+.panel__select {
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    background: #fdfdfd;
+    color: #1f2933;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.panel__select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
 .panel__controls button {
   background: #f3f4f6;
   border: 1px solid #d0d7de;
@@ -202,6 +218,15 @@
   flex-wrap: wrap;
   gap: 1rem;
   align-items: flex-end;
+}
+
+/* NEW: Label for options group */
+.options__label {
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #334155;
+    margin-bottom: 0.25rem;
 }
 
 .options__group label {
